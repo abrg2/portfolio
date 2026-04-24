@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+    <title>Andreas Gerström - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Andreas Gerström</h1>
+        <p class="subtitle">Systems Developer · Web Developer · Reverse Engineer</p>
+        <div class="social-bar">
+            <a link="_blank" href="mailto:ag.collision046@slmails.com"><i class="fas fa-envelope"></i> Email</a>
+            <a link="_blank" href="https://www.linkedin.com/in/andreas-g-a07195352/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a link="_blank" href="https://github.com/Nisto"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <a link="_blank" href="https://abrg2.github.io/cv" class="cta-button">
+            View résumé
+        </a>
+    </header>
+    <section class="about">
+        <h2>About</h2>
+        <div class="split">
+            <div>
+                <p>I build applications, systems and tools with a focus on simplicity, reliability, and real-world value.</p>
+                <p>At heart, I’m a problem-solver. Whether debugging complex low-level issues or mentoring peers, I enjoy untangling challenges and sharing knowledge.</p>
+                <p>My focus areas primarily include:</p>
+                <ul>
+                    <li>Web development</li>
+                    <li>Low-level software analysis, debugging and reverse engineering</li>
+                    <li>Multimedia and compression data processing tools</li>
+                    <li>UX/UI tools and cross-platform development</li>
+                    <li>Automated systems for deployment, backups and more</li>
+                </ul>
+                <p>I have worked with multiple architectures including <strong>x86</strong>, <strong>MIPS</strong>, and <strong>PowerPC</strong>.</p>
+                <div class="tech-icons">
+                    <i class="fab fa-c text-gradient tg-c" title="C programming language"></i>
+                    <i class="fa-solid fa-hashtag text-gradient tg-csharp" title="C#"></i>
+                    <i class="fab fa-python text-gradient tg-python" title="Python"></i>
+                    <i class="fab fa-js text-gradient tg-js" title="JavaScript"></i>
+                    <i class="fab fa-html5 text-gradient tg-html5" title="HTML5"></i>
+                    <i class="fab fa-css3 text-gradient tg-css3" title="CSS3"></i>
+                    <i class="fab fa-react text-gradient tg-react" title="React"></i>
+                    <i class="fab fa-php text-gradient tg-php" title="PHP"></i>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="images/prof2.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Professional Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/mediflow.png">
+                <h3>MediFlow</h3>
+                <div class="info">
+                    Healthcare logistics tracking and management app.
+                    <div class="tags">Node.js · Express · JS · MSSQL · MongoDB</div>
+                </div>
+                <a href="https://dev.mediflow.se" class="secondary-button"">Visit site</a>
+            </div>
+            <div class="card">
+                <img src="images/kvarter.png">
+                <h3>Kvartershjälp</h3>
+                <div class="info">
+                    Community platform enabling local collaboration and communication.
+                    <div class="tags">Node.js · Express · React · Next.js · MongoDB</div>
+                </div>
+                <a href="https://kvartershjalp.se" class="secondary-button">Visit site</a>
+            </div>
+            <div class="card">
+                <img src="images/avsalt.png">
+                <h3>Avsalt</h3>
+                <div class="info">
+                    HMI (Human Machine Interface) for desalination system.
+                    <div class="tags">Delphi · C · Win32 API · Arduino</div>
+                </div>
+                <p>Desktop application</p>
+            </div>
+            <div class="card">
+                <img src="images/lundalearn.png">
+                <h3>Dyslexi Madison</h3>
+                <div class="info">
+                    Next.js / React learning platform targetted towards dyslexics.
+                    <div class="tags">Node.js · Express · React · Next.js · MongoDB</div>
+                </div>
+                <a href="https://dysleximadison.se" class="secondary-button">Visit site</a>
+            </div>
+        </div>
+    </section>
+    <section class="engineering">
+        <h2>System Engineering</h2>
+        <div class="split">
+            <div>
+                <p>Among some of my historical system implementations is a deployment system that automates application updates across environments.</p>
+                <p>The system utilizes Git hooks, automated shell scripts, and containerized services to ensure consistent application delivery.</p>
+                <p>It supports branch-based deployment logic and uses reverse proxy routing to distribute traffic between frontend, backend, and database services.</p>
+                <p>It also supports persistence of databases in Docker containers through the use of persistent volumes.</p>
+            </div>
+            <div class="image-box">
+                <img src="images/deployment.png" alt="" style="max-height: 320px;">
+            </div>
+        </div>
+    </section>
+    <section class="hobby-projects">
+        <h2>Personal Projects &amp; Contributions</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/sh2.png">
+                <h3>Silent Hill 2: Enhanced Edition</h3>
+                <div class="info">
+                    I received honorable mentions for my filesystem extractor for the PS2 version and contributed audio enhancements.
+                    <div class="tags">Python · Assembly (MIPS) · IDA</div>
+                </div>
+                <a link="_blank" href="https://enhanced.townofsilenthill.com/SH2/credit.htm#Nisto" class="secondary-button">Visit site</a>
+            </div>
+            <div class="card">
+                <h3>Audio Tools</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Nisto/kdt-tool" target="_blank">
+                            <strong>Konami MIDI converter</strong>
+                        </a>
+                        <div class="info">
+                            Converts Konami's MIDI-like audio format. The code has been adopted and ported to software like <a href="https://github.com/vgmtrans/vgmtrans#special-thanks" style="font-weight: bold; color: var(--tertiary);">VGMTrans</a> (open-source) and <a href="#" style="font-weight: bold; color: var(--tertiary);">Awave Studio</a> (commercial).
+                            <div class="tags">Python · MIPS · IDA</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nisto/pk3dec" target="_blank">
+                            <strong>PS2 tri-Ace audio decoder</strong>
+                        </a>
+                        <div class="info">
+                            Decodes MP3-like audio in PS2 games developed by tri-Ace. The code has largely been adopted by projects like <a href="https://github.com/vgmstream/vgmstream/blob/master/src/coding/libs/tac_lib.c" style="font-weight: bold; color: var(--tertiary);">vgmstream.</a>
+                            <div class="tags">C · Win32 API · x86 · MIPS · Lua · IDA</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Decompression Tools</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Nisto/bio-tools/tree/master/bio0/alz-tool" target="_blank">
+                            <strong>Capcom ALZ</strong>
+                        </a>
+                        <div class="info">
+                            Decompresses ALZ files from games developed by Capcom, such as Resident Evil 0 (Nintendo GameCube).
+                            <div class="tags">C · Python · PowerPC</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nisto/lzsd" target="_blank">
+                            <strong>Natsume LZS</strong>
+                        </a>
+                        <div class="info">
+                            For Natsume-developed games on numerous platforms, including Sony PS1, Nintendo Wii, Nintendo DS and Microsoft Xbox 360.
+                            <div class="tags">C · IDA · Ghidra · MIPS · PowerPC · ARM</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Miscellanea</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/yourusername/project4" target="_blank">
+                            <strong>Compatibility patches</strong>
+                        </a>
+                        <div class="info">
+                            Project that attempts to bring abandonware software into the modern era by patching code that prevents proper functioning in modern OSes.
+                            <div class="tags">Python · Assembler (x86) · IDA</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://github.com/yourusername/project3" target="_blank">
+                            <strong>PS2 video demultiplexer</strong>
+                        </a>
+                        <div class="info">
+                            Demuxes videos from the PS2 game Zone of the Enders.
+                            <div class="tags">C</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+            <div>
+                <h3><i class="fas fa-code"></i> &nbsp; Programming</h3>
+                <p>C · C# · Python · JavaScript · PHP · Delphi · Assembler (x86, MIPS, PowerPC) · Arduino</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-image"></i> &nbsp; Layout &amp; Design</h3>
+                <p>HTML · CSS · Bootstrap</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-book"></i> &nbsp; Libraries, Runtimes &amp; APIs</h3>
+                <p>Win32 API · .NET · Node.js · React · Next.js · Express · AJAX · Axios</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-database"></i> &nbsp; Databases</h3>
+                <p>MySQL · MariaDB · PostgreSQL · SQLite · MSSQL · MongoDB</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-microchip"></i> &nbsp; Virtualization</h3>
+                <p>Docker · VirtualBox · VMware · QEMU · Proxmox</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-code-branch"></i> &nbsp; Versioning &amp; Deployment</h3>
+                <p>Git · GitLab CI/CD · GitHub</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-tools"></i> &nbsp; Tools</h3>
+                <p>Visual C · MinGW/GCC · Pelles C · Zig · IDA · Ghidra · Visual Studio · VSCode · Postman · FFmpeg · Photoshop · GIMP</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-compact-disc"></i> &nbsp; Systems</h3>
+                <p>Windows · Linux · OpenBSD</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-server"></i> &nbsp; Server Software</h3>
+                <p>SSH · NGINX · Apache</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Andreas Gerström</p>
+    </footer>
+</body>
+</html>
